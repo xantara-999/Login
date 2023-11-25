@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/color">
+
+    <TextView
+        android:id="@+id/viewemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/vins"
+        android:layout_marginTop="550dp"
+        android:layout_below="@id/viewelcome"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/viewelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/vins"
+        android:text="Welcome Back!!"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="590dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/vektor" />
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="800dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/person"
+        android:foregroundGravity="bottom" />
+
+
+</RelativeLayout>
